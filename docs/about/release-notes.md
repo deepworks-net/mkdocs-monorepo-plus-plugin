@@ -4,5 +4,5 @@
 ## <a href="https://github.com/{{ name_space }}/releases/tag/{{ release }}" target="_blank" title="{{ release }} Release" alt="{{ release }} Release">**{{ release }} {{ release_date }}**</a>
 {% endmacro -%}
 
-{{ release_header('v1.0.0','(08/04/2023)') }}
+{{ release_header('v1.0.0','(10/31/2023)') }}
 - Initial release

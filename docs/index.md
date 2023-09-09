@@ -1,2 +1,2 @@
 # Monorepo Plus Plugin for MkDocs
-More to come... Please forgive the mess...
+Coming Soon!

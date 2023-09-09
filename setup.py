@@ -15,8 +15,8 @@ setuptools.setup(
     license='Apache-2.0',
     python_requires='>=3',
     install_requires=[
-        'mkdocs>=1.3',
-        'mkdocs-material>=5.1.0',
+        'mkdocs>=1.5',
+        'mkdocs-material>=9.2',
         'mkdocs-monorepo-plugin>=1.0.5'
     ],
     classifiers=[
