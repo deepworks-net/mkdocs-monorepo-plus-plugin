@@ -77,7 +77,8 @@ class MonorepoPlusPlugin(MonorepoPlugin):
         self.config['merged_docs_dir_src'] = self.config['merged_docs_dir']+os.sep+original_config['docs_dir']
 
         # Clean the directory first
-        shutil.rmtree(self.config['merged_docs_dir_src'])
+        if os.path.exists(self.config['merged_docs_dir_src']) and os.path.isdir(self.config['merged_docs_dir_src']):
+            shutil.rmtree(self.config['merged_docs_dir_src'])
 
         # Copy the files created by monorepo to the merged docs dir
         shutil.copytree(config['docs_dir'], self.config['merged_docs_dir_src'])
